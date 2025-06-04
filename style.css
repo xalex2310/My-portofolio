@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color:whitesmoke;
+    padding: 30px;
+}
+
+.link-header {
+    background-color:lightblue ;
+    padding: 10px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.title-container{
+    display:flex;
+    justify-content: center;
+}
+
+p::before{
+    content:'👉';
+    padding: 20px;
+    padding-left: 0px;
+}
+
+p::after{
+    content:'✔️';
+    padding: 20px;
+    padding-left: 0px;
+}
+
